@@ -1,0 +1,91 @@
+/* RESET CHUNG */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BANNER */
+.main-header {
+    height: 450px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('anh/letrungkien.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* BẢNG GIỚI THIỆU */
+.intro-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+}
+
+.intro-table td {
+    width: 33.33%;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+
+/* BỐ CỤC CONTAINER */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.sidebar { width: 20%; padding: 20px; }
+.content { width: 80%; padding: 20px; }
+
+/* KHỐI NỘI DUNG (ẢNH PHẢI) */
+.khu-tinhnguyen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.khu-tinhnguyen .text { flex: 1; }
+
+.khu-tinhnguyen .hinh img {
+    width: 180px; /* Ảnh nhỏ lại */
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+/* HIỆU ỨNG LINK TÌM HIỂU THÊM */
+.link-tim-hieu {
+    text-decoration: none;
+    color: #007bff; /* Xanh mặc định */
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.link-tim-hieu:hover {
+    color: #ff5722; /* Cam khi di chuột */
+    text-decoration: underline;
+}
+
+.link-tim-hieu:active {
+    color: #ff0000; /* Đỏ khi bấm */
+}
+
+.link-tim-hieu:visited {
+    color: #6f42c1; /* Tím khi đã xem rồi */
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
